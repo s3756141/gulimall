@@ -8,14 +8,21 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall</name>
     <description>聚合服务</description>
+<!--    pom帮助聚合modules-->
     <packaging>pom</packaging>
 
+<!--    指定模块-->
     <modules>
         <module>gulimall-coupon</module>
         <module>gulimall-product</module>
         <module>gulimall-order</module>
         <module>gulimall-member</module>
         <module>gulimall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimall-common</module>
+        <module>gulimall-third-party</module>
+        <module>gulimall-search</module>
     </modules>
 
 
